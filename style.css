@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: space-between; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px;
+
+}
+.header {
+    padding-top: 6rem;
+    width: 60%;
+    margin-left: 10rem;
+    position: relative;
+}
+h1{
+    font-size: 60px;
+    color: #1877f2;
+    font-weight: 1000;
+ }
+#text1{
+    font-weight: 300;
+    font-size: 30px;
+    color: black;
+    }
+.log-in-form{
+        background-color: white; 
+        width: 400px;
+        height: 350px;
+        padding: 15px;
+        margin-top: 3rem;
+        margin-right: 12rem;
+        position: relative;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: #3a3a3a6e 5px 5px 20px;
+        
+    }
+.box{
+  padding: 15px;
+  width: 300px;
+  border-radius: 5px;
+  border-width: 1px;
+  border: 1px solid rgb(215, 203, 203);
+    }
+    .login{
+        border: 1px solid #1877f2; 
+        width: 200px;
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+        background-color: #1877f2;
+        border-radius: 10px;
+        font-weight: 700;
+}
+.create{
+    border: 1px solid hsl(138, 88%, 29%);
+        width: 200px;
+        height: 50px ;
+        padding: 10px;
+        font-size: 15px;
+        color: white;
+        background-color: hsl(138, 92%, 37%);
+        border-radius: 10px;
+        font-weight: 700;
+}
+#click{
+    margin-top: 70px;
+}
+a{
+    text-decoration: none;
+    text-decoration-style: solid;
+}
+.PWS{
+    color: #1877f2;
+}
+.PWS2{
+    color: black;
+    font-weight: 800;
+}
+@media(max-width: 700px){
+    body {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+       
+    }
+    .header{
+        padding-top: 1rem;
+        margin-left: 80px;
+    }
+    .log-in-form{
+        margin-top: 3rem;
+        margin-left: 2rem;
+        margin-bottom: 50px;
+        margin-right: 2rem;
+        width: 360px;
+    }
+}
